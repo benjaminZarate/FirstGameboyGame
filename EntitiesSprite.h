@@ -1,6 +1,6 @@
 /*
 
- PLANCESPRITE.H
+ ENTITIESSPRITE.H
 
  Include File.
 
@@ -10,7 +10,7 @@
   Compression          : None.
   Counter              : None.
   Tile size            : 8 x 8
-  Tiles                : 0 to 4
+  Tiles                : 0 to 10
 
   Palette colors       : None.
   SGB Palette          : None.
@@ -24,8 +24,8 @@
 
 
 /* Bank of tiles. */
-#define PlaneBank 0
+#define EntitiesBank 0
 /* Start of tile array. */
-extern unsigned char Plane[];
+extern unsigned char Entities[];
 
-/* End of PLANCESPRITE.H */
+/* End of ENTITIESSPRITE.H */
