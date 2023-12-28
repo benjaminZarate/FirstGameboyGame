@@ -1,13 +1,13 @@
 /*
 
- BACKGROUNDMAP.H
+ MAP_BACKGROUND.H
 
  Map Include File.
 
  Info:
    Section       : 
    Bank          : 0
-   Map size      : 40 x 18
+   Map size      : 20 x 18
    Tile set      : D:\gbtd22\simple_background.gbr
    Plane count   : 1 plane (8 bits)
    Plane order   : Tiles are continues
@@ -18,10 +18,10 @@
 
 */
 
-#define backgroundMapWidth 40
-#define backgroundMapHeight 18
-#define backgroundMapBank 0
+#define MapBackgroundWidth 20
+#define MapBackgroundHeight 18
+#define MapBackgroundBank 0
 
-extern unsigned char backgroundMap[];
+extern unsigned char MapBackground[];
 
-/* End of BACKGROUNDMAP.H */
+/* End of MAP_BACKGROUND.H */
